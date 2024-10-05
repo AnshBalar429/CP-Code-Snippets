@@ -18,6 +18,7 @@ void build(std::vector<int> &arr, int start, int end, int ind) {
 
 void update(std::vector<int> &arr, int start, int end, int ind, int pos, int value) {
     if (start == end) {
+        //might change
         arr[pos] = value;
         segTree[ind] = arr[pos];
         return;
@@ -30,10 +31,12 @@ void update(std::vector<int> &arr, int start, int end, int ind, int pos, int val
         update(arr, mid + 1, end, 2 * ind + 1, pos, value);
     }
 
+    //might change
     segTree[ind] = segTree[2 * ind] + segTree[2 * ind + 1];
 }
 
 int query(int start, int end, int ind, int l, int r) {
+    //complete overlap
     if (start >= l && end <= r) {
         return segTree[ind];
     }
@@ -45,6 +48,7 @@ int query(int start, int end, int ind, int l, int r) {
     int mid = (start + end) / 2;
     int leftans = query(start, mid, 2 * ind, l, r);
     int rightans = query(mid + 1, end, 2 * ind + 1, l, r);
+    //might change
     return leftans + rightans;
 }
 
