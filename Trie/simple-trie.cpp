@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-using namespace std;
 
 struct Node {
     Node *link[26];
@@ -30,7 +29,7 @@ public:
         root = new Node;
     }
 
-    void insert(string &word) {
+    void insert(std::string &word) {
         Node *node = root;
         for (int i = 0; i < word.size(); i++) {
             if (!node->containsKey(word[i])) {
@@ -41,7 +40,7 @@ public:
         node->flag = true;
     }
 
-    bool search(string &word) {
+    bool search(std::string &word) {
         Node *node = root;
         for (int i = 0; i < word.size(); i++) {
             if (!node->containsKey(word[i])) {
@@ -53,7 +52,7 @@ public:
         return node->flag;
     }
 
-    bool startsWith(string &word) {
+    bool startsWith(std::string &word) {
         Node *node = root;
         for (int i = 0; i < word.size(); i++) {
             if (!node->containsKey(word[i])) {
