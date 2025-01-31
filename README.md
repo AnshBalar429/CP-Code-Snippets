@@ -6,5 +6,9 @@
 
 2. [Strings](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Strings)
 
+3. [Trie](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Trie)
+
+4. [Math](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Math)
+
 ## Author  
 - [@AnshBalar](https://www.github.com/AnshBalar429)  
