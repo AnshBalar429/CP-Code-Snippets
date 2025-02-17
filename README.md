@@ -10,5 +10,7 @@
 
 4. [Math](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Math)
 
+5. [Tree](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Trees)
+
 ## Author  
 - [@AnshBalar](https://www.github.com/AnshBalar429)  
