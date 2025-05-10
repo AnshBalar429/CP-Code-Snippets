@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-const int mod = 998244353;
+const int mod = 998244353; //Change to mod value based on task
 
 struct mint {
     int x;
