@@ -124,3 +124,12 @@ struct mint {
         return x != 0;
     }
 };
+
+int main() {
+    mint A = 10;
+    mint B = 1000000000;
+    mint mult = A * B;
+    mint pow = B.power(100);
+    std::cout << mult << '\n';
+    std::cout << pow << '\n';
+}
