@@ -12,5 +12,7 @@
 
 5. [Tree](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/Trees)
 
+6. [Modular Int](https://github.com/AnshBalar429/CP-Code-Snippets/tree/main/mint)
+
 ## Author  
 - [@AnshBalar](https://www.github.com/AnshBalar429)  
