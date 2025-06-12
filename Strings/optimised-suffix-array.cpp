@@ -33,7 +33,7 @@ void stringSuffix() {
     // k = 0
     std::vector<std::pair<char, int> > a(n);
     for (int i = 0; i < n; i++) a[i] = {s[i], i};
-    std::ranges::sort(a.begin(), a.end());
+    std::sort(a.begin(), a.end());
 
     for (int i = 0; i < n; i++) p[i] = a[i].second;
     c[p[0]] = 0;
